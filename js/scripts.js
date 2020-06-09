@@ -14,7 +14,7 @@ $(document).ready(function() {
       if (finalSentence === "a" || finalSentence === "e" || finalSentence === "i" || FinalSentence === "o" || finalSentence === "u") {
       finalSentence[i] = '-';
       } else {
-        
+        finalSentence2[i]=finalSentence;
         alert ("test ");
       }
 
